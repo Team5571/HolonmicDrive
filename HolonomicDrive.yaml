@@ -662,6 +662,16 @@ Children:
         value: '1'
     Base: Joystick
     Name: Forklift Joystick
+  - Children: []
+    Properties:
+      Number: !!robotbuilder.data.properties.ChoicesProperty
+        choices: *id008
+        default: 1
+        name: Number
+        validators: *id009
+        value: '2'
+    Base: Joystick
+    Name: ShootingJoystick
   Properties: {}
   Base: OI
   Name: Operator Interface
